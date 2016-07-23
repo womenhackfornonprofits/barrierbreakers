@@ -14,9 +14,6 @@ function usersShow(req, res) {
   });
 }
 
-
-
-
 module.exports = {
   index       : usersIndex,
   show        : usersShow
