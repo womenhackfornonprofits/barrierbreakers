@@ -1,9 +1,9 @@
 var passport = require("passport");
-var User = require("../models/user");
-var secret = require("../config/config").secret;
-var config = require("../config/config");
-var jwt = require("jsonwebtoken");
-var rp  = require('request-promise');
+var User     = require("../models/user");
+var secret   = require("../config/config").secret;
+var config   = require("../config/config");
+var jwt      = require("jsonwebtoken");
+var rp       = require('request-promise');
 
 
 function register(req, res, next) {
